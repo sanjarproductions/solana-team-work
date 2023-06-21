@@ -72,6 +72,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 }
 .container .hero .hero-texts h1 {
   max-width: 563px;
@@ -128,13 +129,124 @@
 }
 .container .hero .animation {
   position: absolute;
-  height: 1042px;
-  left: 900px;
-  right: -21.75%;
-  top: -155.59px;
+  height: 642px;
+  left: 65.44%;
+  right: -20.75%;
   background: rgba(240, 135, 255, 0.3);
   filter: blur(250px);
   border-radius: 100px;
-  display: none;
-  z-index: 1;
+}
+.container .course {
+  max-width: 1140px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.container .course h2 {
+  font-size: 38px;
+  line-height: 42px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  color: #fff;
+  letter-spacing: 0.68px;
+}
+.container .course p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #C4C4C4;
+  font-family: "Open Sans";
+  margin-top: 3px;
+}
+.container .course .course-item {
+  max-width: 1084px;
+  padding: 78px 88px;
+  background-image: url(./img/IMAGE\ \(6\).png);
+  margin-top: 32px;
+}
+.container .course .course-item .button {
+  width: 84px;
+  height: 15px;
+  background-color: #9945FF;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 18px;
+  color: #fff;
+}
+.container .course .course-item h3 {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 39px;
+  line-height: 40px;
+  color: #FFFFFF;
+  margin-top: 17px;
+}
+.container .course .course-item p {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #FFFFFF;
+  max-width: 387px;
+  margin-top: 31px;
+}
+.container .course .course-item .arow {
+  margin-top: 24px;
+}
+.container .course .harr {
+  max-width: 1184px;
+  gap: 24px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+.container .course .harr .harr-item {
+  width: 346px;
+  height: 320px;
+  background-image: url(./img/IMAGE\ \(7\).png);
+  padding-top: 225px;
+  padding-left: 31px;
+}
+.container .course .harr .harr-item .buttons {
+  width: 90px;
+  height: 18px;
+  background-color: #9945FF;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 18px;
+  color: #fff;
+}
+.container .course .harr .harr-item p {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #fff;
+  margin-top: 11px;
+}
+.container .course .harr .asa {
+  background-image: url(./img/IMAGE\ \(8\).png);
+}
+.container .course .harr .bsa {
+  background-image: url(./img/IMAGE\ \(10\).png);
+}
+.container .course .harr .csa {
+  background-image: url(./img/IMAGE\ \(11\).png);
+}
+.container .course .harr .dsa {
+  background-image: url(./img/IMAGE\ \(12\).png);
+}
+.container .course .harr .esa {
+  background-image: url(./img/IMAGE\ \(13\).png);
 }/*# sourceMappingURL=davron.css.map */
