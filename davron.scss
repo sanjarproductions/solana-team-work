@@ -74,6 +74,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        position: relative;
         .hero-texts{
             h1{
                 max-width: 563px;
@@ -131,16 +132,126 @@
         }
         .animation{
             position: absolute;
-height: 1042px;
-left: 900px;
-right: -21.75%;
-top: -155.59px;
-
-background: rgba(240, 135, 255, 0.3);
-filter: blur(250px);
-border-radius: 100px;
-display: none;
-            z-index: 1;
+            height: 642px;
+            left: 65.44%;
+            right: -20.75%;
+            background: rgba(240, 135, 255, 0.3);
+            filter: blur(250px);
+            border-radius: 100px;
+        }
+    }
+    .course{
+        max-width: 1140px;
+        padding: 0 20px;
+        margin: 0 auto;
+        h2{
+            font-size: 38px;
+            line-height: 42px;
+            font-family: 'Open Sans';
+            font-weight: 400;
+            color: #fff;
+            letter-spacing: 0.68px;
+        }
+        p{
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 27px;
+            color: #C4C4C4;
+            font-family: 'Open Sans';
+            margin-top: 3px;
+        }
+        .course-item{
+            max-width: 1084px;
+            padding: 78px 88px;
+            background-image: url(./img/IMAGE\ \(6\).png);
+            margin-top: 32px;
+            .button{
+                width: 84px;
+                height: 15px;
+                background-color: #9945FF;
+                border-radius: 16px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-family: 'Open Sans';
+                font-weight: 400;
+                font-size: 11px;
+                line-height: 18px;
+                color: #fff;
+            }
+            h3{
+                font-family: 'Open Sans';
+                font-weight: 400;
+                font-size: 39px;
+                line-height: 40px;
+                color: #FFFFFF;
+                margin-top: 17px;
+            }
+            p{
+                font-family: 'Open Sans';
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 27px;
+                color: #FFFFFF;
+                max-width: 387px;
+                margin-top: 31px;
+            }
+            .arow{
+                margin-top: 24px;
+            }
+        }
+        .harr{
+            max-width: 1184px;
+            gap: 24px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 24px;
+            .harr-item{
+                width: 346px;
+                height: 320px;
+                background-image: url(./img/IMAGE\ \(7\).png);
+                padding-top: 225px;
+                padding-left: 31px;
+                .buttons{
+                    width: 90px;
+                    height: 18px;
+                    background-color: #9945FF;
+                    border-radius: 16px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-family: 'Open Sans';
+                    font-weight: 400;
+                    font-size: 11px;
+                    line-height: 18px;
+                    color: #fff;
+                }
+                p{
+                    font-family: 'Open Sans';
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 25px;
+                    color: #fff;
+                    margin-top: 11px;
+                }
+            }
+            .asa{
+                background-image: url(./img/IMAGE\ \(8\).png);
+            }
+            .bsa{
+                background-image: url(./img/IMAGE\ \(10\).png);
+            }
+            .csa{
+                background-image: url(./img/IMAGE\ \(11\).png);
+            }
+            .dsa{
+                background-image: url(./img/IMAGE\ \(12\).png);
+            }
+            .esa{
+                background-image: url(./img/IMAGE\ \(13\).png);
+            }
         }
     }
 }
